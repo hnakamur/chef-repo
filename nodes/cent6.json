@@ -6,8 +6,14 @@
       "checksum": "3267574f007cba5d947ad04d2aebd45ffec06565d019791bc536229bbc6d3b84"
     }
   },
+  "mysql": {
+    "server_debian_password": "",
+    "server_root_password": "",
+    "server_repl_password": ""
+  },
   "run_list":[
-    "yum",
+    "yum::remi",
+    "mysql::server",
     "nginx"
   ]
 }
