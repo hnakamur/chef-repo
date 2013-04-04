@@ -20,6 +20,7 @@
   },
   "run_list":[
     "ntp",
+    "custom-sysstat",
     "yum::remi",
     "mysql::server",
     "nginx"
