@@ -1,0 +1,9 @@
+{
+  "nginx": {
+    "repo_source": "nginx"
+  },
+  "run_list":[
+    "yum",
+    "nginx"
+  ]
+}
