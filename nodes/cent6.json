@@ -13,6 +13,25 @@
       "checksum": "3267574f007cba5d947ad04d2aebd45ffec06565d019791bc536229bbc6d3b84"
     }
   },
+  "php": {
+    "install_method": "package",
+    "packages": [
+      "php",
+      "php-devel",
+      "php-intl",
+      "php-mbstring",
+      "php-pear",
+      "php-pecl-apc",
+      "php-pdo",
+      "php-mysql",
+      "php-process",
+      "php-soap",
+      "php-xml"
+    ],
+    "directives": {
+      "date.timezone": "Asia/Tokyo"
+    }
+  },
   "mysql": {
     "server_debian_password": "",
     "server_root_password": "",
@@ -23,6 +42,7 @@
     "custom-sysstat",
     "yum::remi",
     "mysql::server",
-    "nginx"
+    "nginx",
+    "php"
   ]
 }
