@@ -26,11 +26,10 @@
 
 include_recipe "sysstat"
 
-if platform? %w{centos rhel amazon}
-  template node['sysstat']['cron_file'] do
-    source "sysstat.cron.erb"
-    owner  "root"
-    group  "root"
-    mode   "0644"
-  end
+template node['sysstat']['cron_file'] do
+  source "sysstat.cron.erb"
+  owner  "root"
+  group  "root"
+  mode   "0644"
+  only_if { platform? %w{centos rhel amazon} }
 end
