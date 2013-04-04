@@ -1,5 +1,6 @@
 site :opscode
 
+cookbook 'selinux'
 cookbook 'ntp'
 cookbook 'sysstat'
 cookbook 'yum'

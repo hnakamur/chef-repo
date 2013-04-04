@@ -38,6 +38,7 @@
     "server_repl_password": ""
   },
   "run_list":[
+    "selinux::disabled",
     "ntp",
     "custom-sysstat",
     "yum::remi",
