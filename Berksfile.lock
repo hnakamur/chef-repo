@@ -1,6 +1,7 @@
 cookbook 'selinux', :locked_version => '0.5.6'
 cookbook 'ntp', :locked_version => '1.3.2'
 cookbook 'sysstat', :locked_version => '1.2.0'
+cookbook 'afw', :git => 'https://github.com/jvehent/AFW.git', :ref => '62192854374087dfa89cd020b0cdb95afce882d6'
 cookbook 'yum', :locked_version => '2.2.0'
 cookbook 'nginx', :locked_version => '1.4.0'
 cookbook 'php', :locked_version => '1.1.8'
