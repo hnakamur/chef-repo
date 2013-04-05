@@ -59,7 +59,12 @@
     "server_root_password": "",
     "server_repl_password": ""
   },
+  "munin": {
+    "web_server": "nginx",
+    "server_auth_method": "htpasswd"
+  },
   "run_list":[
+    "chef-solo-search",
     "selinux::disabled",
     "ntp",
     "easy-iptables",
@@ -67,6 +72,7 @@
     "yum::remi",
     "mysql::server",
     "nginx",
-    "php"
+    "php",
+    "munin::server"
   ]
 }

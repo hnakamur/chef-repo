@@ -1,0 +1,6 @@
+{
+  "fqdn": "cent6",
+  "ipaddress": "127.0.0.1",
+  "munin": true,
+  "chef_environment": "_default"
+}

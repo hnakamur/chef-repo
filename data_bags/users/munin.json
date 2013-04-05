@@ -1,0 +1,5 @@
+{
+  "id": "munin",
+  "groups": ["sysadmin"],
+  "htpasswd": "{SHA}W6ph5Mm5Pz8GgiULbPgzG37mj9g="
+}
