@@ -41,6 +41,8 @@
     "selinux::disabled",
     "ntp",
     "custom-sysstat",
+    "simple_iptables",
+    "iptables_rules",
     "yum::remi",
     "mysql::server",
     "nginx",
