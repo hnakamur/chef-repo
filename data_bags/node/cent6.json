@@ -2,5 +2,9 @@
   "fqdn": "cent6",
   "ipaddress": "127.0.0.1",
   "munin": true,
+  "nagios": true,
+  "name": "cent6",
+  "hostname": "cent6",
+  "os": "linux",
   "chef_environment": "_default"
 }

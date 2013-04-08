@@ -1,0 +1,6 @@
+{
+  "id": "monitoring",
+  "hostgroup_name": "monitoring",
+  "search_query": "nagios:[* TO *]",
+  "chef_environment": "_default"
+}

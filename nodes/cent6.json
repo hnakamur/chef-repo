@@ -63,6 +63,14 @@
     "web_server": "nginx",
     "server_auth_method": "htpasswd"
   },
+  "nagios": {
+    "server": {
+      "web_server": "nginx",
+      "nginx_dispatch": "both"
+    },
+    "server_auth_method": "htpasswd"
+  },
+  "name": "cent6",
   "run_list":[
     "chef-solo-search",
     "selinux::disabled",
@@ -72,7 +80,9 @@
     "yum::remi",
     "mysql::server",
     "nginx",
+    "nginx_simplecgi",
     "php",
-    "munin::server"
+    "munin::server",
+    "role[monitoring]"
   ]
 }

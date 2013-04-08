@@ -1,0 +1,10 @@
+{
+  "id": "nagiosadmin",
+  "groups": "sysadmin",
+  "htpasswd": "{SHA}SNmctjo9wwf7kjOKiuKaay14Yyc=",
+  "openid": "http://nagiosadmin.myopenid.com/",
+  "nagios": {
+    "pager": "nagiosadmin_pager@example.com",
+    "email": "nagiosadmin@example.com"
+  }
+}
