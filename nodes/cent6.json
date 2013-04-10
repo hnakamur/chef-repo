@@ -31,6 +31,10 @@
   "nginx": {
     "install_method": "source",
     "version": "1.3.15",
+    "dir": "/opt/nginx/etc",
+    "log_dir": "/var/opt/nginx/log",
+    "pid": "/var/opt/nginx/run/nginx.pid",
+    "service_name": "nginx-dev",
     "source": {
       "checksum": "3267574f007cba5d947ad04d2aebd45ffec06565d019791bc536229bbc6d3b84"
     }
